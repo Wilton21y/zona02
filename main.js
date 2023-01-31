@@ -1,4 +1,4 @@
-  /* Elementos de pontos do placar  */
+/* Elementos de pontos do placar  */
   let contadorPa = 0;
   let contador = 0;
   let limite = 15;
