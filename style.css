@@ -15,10 +15,12 @@ a {
 
 :root {
  --font: rgba(255, 255, 255, 1);
- --font2: rgba(255, 205, 0, 1)
+ --font2: rgba(255, 205, 0, 1);
+
  --Plac-az: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 162, 255, 1), rgba(0, 0, 0, 1));
  --Plac-vr: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 1, 1, 1), rgba(0, 0, 0, 1));
  --btn-borda: rgba(0, 0, 0, 1);
+
  --fundo: linear-gradient(rgba(0, 0, 0, 1), rgba(2, 112, 183, 1));
 }
 
