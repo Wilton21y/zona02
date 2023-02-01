@@ -1,0 +1,17 @@
+.anima {
+ animation: destac 2s infinite
+}
+
+@keyframes destac {
+ 0% {
+  color: #fff;
+ }
+
+ 50% {
+  color: #FF0404;
+ }
+
+ 100% {
+  color: #fff;
+ }
+}
