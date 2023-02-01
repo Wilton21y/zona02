@@ -19,6 +19,7 @@ a {
 
  --Plac-az: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 162, 255, 1), rgba(0, 0, 0, 1));
  --Plac-vr: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 1, 1, 1), rgba(0, 0, 0, 1));
+
  --btn-borda: rgba(0, 0, 0, 1);
 
  --fundo: linear-gradient(rgba(0, 0, 0, 1), rgba(2, 112, 183, 1));
@@ -36,6 +37,14 @@ button {
  height: 50px;
  cursor: pointer;
 }
+/* CONTEINER */
+ .cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+ }
+
 
 /* NAV */
 .nav {
