@@ -21,6 +21,7 @@ a {
  --Plac-vr: linear-gradient(rgba(0, 0, 0, 1), rgba(255, 1, 1, 1), rgba(0, 0, 0, 1));
 
  --btn-borda: rgba(0, 0, 0, 1);
+ --f-header: linear-gradient(rgba(0, 0, 0, 1), rgba(2, 112, 183, 1));
 
  --fundo: linear-gradient(rgba(0, 0, 0, 1),rgba(5, 255, 193, 1));
 }
@@ -37,7 +38,17 @@ button {
  height: 50px;
  cursor: pointer;
 }
-/* CONTEINER */
+
+         /* HEADER */
+.header{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 70px;
+ background: var(--f-header);
+}
+
+       /* CONTEINER */
  .cont {
   position: absolute;
   left: 50%;
