@@ -58,7 +58,7 @@
    document.querySelectorAll('h3')[0].innerHTML = '00';
    document.querySelectorAll('h3')[1].innerHTML = '00';
 
-   score = document.getElementById('score').innerText = "Resultado da Partida - " + tempo + "(" + contadorPa + "x" + contador + ")";
+   score = document.getElementById('score').innerText = "tempo: " + tempo +". placar (" + contadorPa + "x" + contador + ")";
 
    document.getElementById('score').classList.add('anima');
 
